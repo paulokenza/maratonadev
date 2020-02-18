@@ -1,0 +1,21 @@
+html, body {
+    margin: 0px;
+}
+header, main, footer {
+    text-align: center;
+}
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header, .form, main {
+    margin-bottom: 70px;
+}
+
